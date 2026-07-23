@@ -1,0 +1,54 @@
+{
+  "name": "ship-mcp",
+  "version": "0.1.1",
+  "description": "A clean, batteries-included TypeScript starter for building MCP (Model Context Protocol) servers. Zod-validated tools, tests, and one-command dev loop.",
+  "type": "module",
+  "bin": {
+    "ship-mcp": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "inspect": "npx @modelcontextprotocol/inspector tsx src/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "ai-agents",
+    "claude",
+    "boilerplate",
+    "starter",
+    "template"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.16.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colossal1598/ship-MCP.git"
+  },
+  "homepage": "https://github.com/colossal1598/ship-MCP#readme",
+  "bugs": {
+    "url": "https://github.com/colossal1598/ship-MCP/issues"
+  }
+}

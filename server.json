@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
   "name": "io.github.colossal1598/ship-mcp",
-  "description": "Clean, batteries-included TypeScript starter for MCP servers: zod-validated tools decoupled from wiring, tests, one-command dev loop.",
+  "description": "Clean TypeScript starter for MCP servers: zod-validated tools, tests, one-command dev loop.",
   "repository": {
     "url": "https://github.com/colossal1598/ship-MCP",
     "source": "github"

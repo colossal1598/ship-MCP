@@ -50,5 +50,6 @@
   "homepage": "https://github.com/colossal1598/ship-MCP#readme",
   "bugs": {
     "url": "https://github.com/colossal1598/ship-MCP/issues"
-  }
+  },
+  "mcpName": "io.github.colossal1598/ship-mcp"
 }

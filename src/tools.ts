@@ -5,7 +5,8 @@ import { z } from "zod";
  * trivially unit-testable. Each entry maps 1:1 to server.registerTool().
  */
 
-export const echoInput = { message: z.string().describe("Text to echo back") };
+// v2 SDKs take a Standard Schema object (z.object), not a raw shape.
+export const echoInput = z.object({ message: z.string().describe("Text to echo back") });
 
 export async function echo({ message }: { message: string }) {
   return {
@@ -13,9 +14,9 @@ export async function echo({ message }: { message: string }) {
   };
 }
 
-export const fetchJsonInput = {
+export const fetchJsonInput = z.object({
   url: z.string().url().describe("HTTPS URL returning JSON"),
-};
+});
 
 export async function fetchJson({ url }: { url: string }) {
   if (!url.startsWith("https://")) {

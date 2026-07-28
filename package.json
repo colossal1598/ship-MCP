@@ -1,6 +1,6 @@
 {
   "name": "ship-mcp",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A clean, batteries-included TypeScript starter for building MCP (Model Context Protocol) servers. Zod-validated tools, tests, and one-command dev loop.",
   "type": "module",
   "bin": {

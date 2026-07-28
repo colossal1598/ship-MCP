@@ -70,3 +70,5 @@ Fewer than 5% of the 11,000+ MCP servers out there make money — not because th
 ---
 
 MIT © Argo Navis
+
+> **Note on the SDK pin:** this starter pins `@modelcontextprotocol/server@2.0.0-beta.5` exactly — the v2 SDK for the 2026-07-28 spec. When the stable `2.0.0` lands, bump the pin and re-run the tests; the exact pin is there so an upstream beta change can't silently break your build.

@@ -3,7 +3,7 @@
 **The clean TypeScript starter for building MCP servers.** Zod-validated tools, unit tests, MCP Inspector wired up, one-command dev loop. Clone it, rename two strings, ship your server.
 
 ```bash
-npx degit YOURORG/ship-mcp my-server && cd my-server && npm i && npm run dev
+npx degit colossal1598/ship-MCP my-server && cd my-server && npm i && npm run dev
 ```
 
 ## Why this exists
